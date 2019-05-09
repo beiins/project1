@@ -1,0 +1,5 @@
+show global status like "Threads_connected";
+select @@global.max_connections;
+SHOW STATUS WHERE `variable_name` = 'Max_used_connections';
+show processlist;
+
